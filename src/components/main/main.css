@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    background-image: url('../img/main-picture.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 960px;
+    font-size: auto;
+}
+
+.main-headname h1 {
+    width: 100%;
+    font-size: 3vw;
+    line-height: 58px;
+    color: #ffff;
+}
+
+.main-name {
+    color: white;
+    padding-bottom: 150px;
+}
+
+
+.main-name_btn {
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Merienda', sans-serif;
+    cursor: pointer;
+}
+
+.main-name_btn:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.main-middle {
+    padding: 0 0 100px;
+}
+
+
+.about-text {
+    font-size: 14px;
+    max-width: 600px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/backgroundmainbottom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 495px;
+}
+
+
+.main-bottom-cards {
+    display: flex;
+    gap: 70px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 8px;
+}
