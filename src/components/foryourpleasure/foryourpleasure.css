@@ -1,0 +1,25 @@
+.foryourpleasure-top_head {
+    background-image: url('../img/foryourpleasure-bg.png');
+    background-size: cover;
+    min-height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.foryourpleasure-top_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 90px;
+}
+
+.foryourpleasure-top_main p {
+    width: 345px;
+    text-align: center;
+    font-size: 14px;
+}

@@ -119,3 +119,29 @@
     gap: 70px;
     margin-top: 60px;
 }
+
+.inner-description-country {
+    display: flex;
+    align-items: center;
+}
+
+.inner-description-descr {
+    text-align: left;
+}
+
+.inner-description-descr h4,
+.inner-description-country h4,
+.inner-description-country-price h4 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.inner-description-country-price {
+    display: flex;
+    align-items: center;
+}
+
+.inner-description-country-price p {
+    font-size: 30px;
+    margin-top: 20px;
+}

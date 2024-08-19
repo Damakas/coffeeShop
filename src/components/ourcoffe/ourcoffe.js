@@ -4,7 +4,7 @@ import './ourcoffe.css'
 import drinkCoffee from '../img/our-coffee-drink-coffee.jpg';
 import logoBlack from '../img/Beans-logo-black.svg';
 import { Container } from "react-bootstrap";
-import AddCards from "../cards/cards";
+import AddCards from "../examples_cards/examples-cards";
 import exempleCard from '../img/best-card-3.png';
 
 
@@ -130,9 +130,10 @@ class OurCoffe extends Component {
                     </div>
                     <div className="ourcoffee-main_cards">
                         <div className="ourcoffee-main_cards-inner">
-                            {filterData.map((item, index) => (
+                            {filterData.map((item) => (
                                 <AddCards
-                                    key={index}
+                                    id={item.id}
+                                    // key={item.id}
                                     src={exempleCard}
                                     alt='Coffee'
                                     name={item.name}

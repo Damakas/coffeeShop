@@ -5,6 +5,7 @@ import ForYourPleasure from './components/foryourpleasure/foryuorpleasure';
 import NavBar from './components/navBar/navBar';
 import Footer from './components/footer/footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CardDetail from './components/coffee/coffee';
 import './App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/ourcoffee" element={<OurCoffe />} />
           <Route path="/foryourpleasure" element={<ForYourPleasure />} />
-
+          <Route path="/coffee/:id" element={<CardDetail />} />
         </Routes>
       </div>
       <footer>

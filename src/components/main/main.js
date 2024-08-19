@@ -5,7 +5,7 @@ import beanLogoWhite from '../img/Beans-logo-white.svg';
 import logoCard from '../img/solimo-coffee.png';
 import bestCard from '../img/best-card-2.png';
 import bestCard2 from '../img/best-card-3.png';
-import AddCards from "../cards/cards";
+import AddCards from "../examples_cards/examples-cards";
 import './main.css'
 
 const Main = () => {
