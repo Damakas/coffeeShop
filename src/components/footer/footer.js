@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import { Container } from 'react-bootstrap';
 import './footer.css';
 import coffenbobs from '../img/coffee-beans-footer.png'
 import coffeefooter from '../img/beans-logo-footer.png';

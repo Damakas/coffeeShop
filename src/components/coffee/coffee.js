@@ -1,11 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import aromistico from '../img/aromistico-about.jpg';
 import logoBlack from '../img/Beans-logo-black.svg';
-import './coffee.css'
 
 const CardDetail = () => {
-    const { id } = useParams();
 
     return (
         <section className="ourcoffee-top">

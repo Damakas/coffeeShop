@@ -8,7 +8,9 @@ function AddCards(props) {
     const { name, price, src, alt, coffeeCountry } = props;
 
     const handleCardClick = () => {
-        navigate(`/coffee/${name}`)
+        if (coffeeCountry === 'Brazil') {
+            navigate(`/coffee/${name}`)
+        }
     }
 
     return (

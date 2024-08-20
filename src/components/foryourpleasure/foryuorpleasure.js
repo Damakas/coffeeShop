@@ -2,6 +2,7 @@ import React from "react";
 import './foryourpleasure.css'
 import cupCoffee from '../img/coffee-foryourpleasure.png';
 import logoBlack from '../img/Beans-logo-black.svg';
+import Cards from "../cards/cards";
 
 const ForYourPleasure = () => {
     return (
@@ -25,7 +26,9 @@ const ForYourPleasure = () => {
             <div className="line-container">
                 <div className="line"></div>
             </div>
-
+            <div>
+                <Cards />
+            </div>
         </section>
 
     )
