@@ -62,7 +62,7 @@ class Cards extends Component {
         const filterData = this.filterPost(this.searchEmp(data, term), filter);
         return (
             <div className="ourcoffee-main_cards">
-                <SearchFilter filter={filter} onFilterSelect={this.onFilterSelect} />
+                <SearchFilter filter={filter} onFilterSelect={this.onFilterSelect} onUpdateSearch={this.onUpdateSearch} />
 
                 <div className="ourcoffee-main_cards-inner">
                     {filterData.map((item) => (

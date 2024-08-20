@@ -23,7 +23,7 @@ const Main = () => {
                 </div>
             </section>
             <section className="main-middle">
-                <div className="pt-4"><h1>About Us</h1></div>
+                <div><h1>About Us</h1></div>
                 <div><img src={logoBlack} alt="черные бобы переход" /></div>
                 <div className="about-text"><p>
                     Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.

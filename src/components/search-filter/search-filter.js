@@ -32,7 +32,7 @@ const SearchFilter = (props) => {
                     type="search"
                     placeholder="start typing here..."
                     value={term}
-                    onChange={onUpdateSearch} />
+                    onChange={props.onUpdateSearch} />
             </div>
             <div className="ourcofffee-main_filter">
                 <p>Or filter</p>
